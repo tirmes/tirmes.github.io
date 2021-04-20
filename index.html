@@ -2,57 +2,20 @@
 <html>
 	<head>
 		<title>tirmes</title>
-		<link rel="shortcut icon" type="image/png" href="./Images/Logo (4k - No BG)"/>
-		<style>
-			img {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
-			@font-face {
-   				font-family: 'Modern Sans';
-				src: url('./Fonts/ModernSans-Light.otf') format('opentype'); <!-- Fonts are relative to CSS file (this file), adding "/" before "uni-sans" will move up one directory. Unsure whether "../" will move up 2 or if it is the same as "/"-->
-			}
-			h2 {
-				font-family: Modern Sans;
-				color: black;
-			}
-			.container {
-				height: 50px;
-				position: relative;
-			}
-			.center {
-				margin: 0;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				-ms-transform: translate(-50%, -50%);
-				transform: translate(-50%, -50%);
-			}
-			.button {
-				border: none;
-				color: black;
-				padding: 15px 32px;
-				text-align: center;
-				text-decoration: none;
-				display: inline-block;
-				font-size: 16px;
-				margin: 4px 2px;
-				cursor: pointer;
-				transition: all .3s ease;
-			}
-			.button:hover {
-				transform: scale(1.3) perspective(10px)
-			}
-		</style>
-		<h2 style = "text-align:center;">TIRMES</h2>
-		<div class = container>
-			<div class = center>
-				<button class = "button" onclick="window.location.href='http://www.tirmes.me/latest'">LATEST</button>
-			</div>
-		</div>
 	</head>
+	<link rel = "stylesheet" href = "style.css">
 	<body>
-		<body bgcolor="#FFFFFF">
+		<div class="header">
+			<a class="active" href="#">Home</a>
+			<a href="/sub">Channel</a>
+			<a href="/latest">Latest</a>
+			<a>Contact</a>
+		</div>
+		<div class="body">
+			<p>Body</p>
+		</div>
+		<div class="footer">
+			<p>Footer</p>
+		</div>
 	</body>
 </html>
