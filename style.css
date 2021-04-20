@@ -6,7 +6,7 @@ img {
 
 @font-face {
   font-family: 'Modern Sans';
-  src: url('./Fonts/ModernSans-Light.otf') format('opentype');
+  src: url('././Fonts/ModernSans-Light.otf') format('opentype');
 }
 
 a {
