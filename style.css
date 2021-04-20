@@ -1,0 +1,52 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@font-face {
+  font-family: 'Modern Sans';
+  src: url('./Fonts/ModernSans-Light.otf') format('opentype');
+}
+
+a {
+	font-family: Modern Sans;
+}
+
+.body {
+	height: 1rem;
+	width: 100%;
+}
+
+.footer {
+	height: 2rem;
+	width: 100%;
+}
+
+/* Navbar styling */
+.header {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.header a {
+	float: left;
+	text-align: center;
+	padding: 1rem;
+	color: white;
+	text-decoration: none;
+	font-size: 1rem;
+	transition: all 0.25s ease-out;
+}
+
+/* Navbar links on mouse-over */
+.header a:hover {
+	background-color: #f00;
+}
+
+/* Current/active navbar link */
+.active {
+	background-color: #c30000;
+}
